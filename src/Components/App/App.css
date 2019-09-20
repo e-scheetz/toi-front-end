@@ -4,9 +4,9 @@
   transform: translateX(-50%);
 }
 
-a{
+/* a{
 color: black
-}
+} */
 
 .removeOverflow{
 overflow: auto;
