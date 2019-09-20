@@ -17,7 +17,7 @@ class CardStack extends Component {
     }
     return(
       <Col s={12} m={6} l={4} xl={3}>
-        <Card style={cardStyle} header={<Row ><Col s={12} m={12} l={12} style={imgStyle}/></Row>} actions={[<a>{product.title}</a>]}>
+        <Card onClick={()=>this.props.toggleDetailed(product.id)} style={cardStyle} header={<Row ><Col s={12} m={12} l={12} style={imgStyle}/></Row>} actions={[<h6>{product.title}</h6>]}>
           <Row />
           <Row />
         </Card>

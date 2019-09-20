@@ -10,7 +10,7 @@ class CardStack extends Component {
       <div className='container'>
         <Row>
           {products.map((product, idx) => (
-            <SingleCard product={product} key={idx} />
+            <SingleCard toggleDetailed={this.props.toggleDetailed} product={product} key={idx} />
           ))}
         </Row>
       </div>
