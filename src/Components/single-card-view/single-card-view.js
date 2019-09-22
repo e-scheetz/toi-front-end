@@ -1,3 +1,5 @@
+// This is a dead file that is not used but was intended for the modal
+
 import React, { Component } from "react";
 import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
